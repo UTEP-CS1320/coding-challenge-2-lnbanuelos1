@@ -24,7 +24,7 @@ int main(void) {
   if ((130 <= s && s <= 139) || (80 <= d && d <= 89)) {
         printf("Stage 1 Hypertension\n");
   }
-  if ((140 <= s && s <= 179) || (90 >= d && d <= 119)) {
+  if ((140 <= s && s <= 179) || (90 <= d && d <= 119)) {
         printf("Stage 2 Hypertension\n");
   }
   if ((s > 180) || (d > 120)) {
