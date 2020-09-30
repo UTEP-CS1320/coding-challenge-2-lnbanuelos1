@@ -1,5 +1,5 @@
-##### Name: (Write your name here)
-##### Date: (Write the date here)
+##### Name: Luis N. Banuelos
+##### Date: 09/30/2020
 
 ### CODING CHALLENGE #2: REPORT
 
