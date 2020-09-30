@@ -15,10 +15,21 @@ int main(void) {
   // Read Systolic and Diastolic pressure
   scanf("%d %d", &s, &d);
 
-  // TODO: Complete the rest of the categories
-  if(s < 120) {
-    if(d < 80) {
+  if((s < 120) && (d < 80)) {
       printf("Normal\n");
-    }
   }
+  if ((120 <= s && s <= 129) && (d < 80)) {
+        printf("Elevated\n");
+  }
+  if ((130 <= s && s <= 139) || (80 <= d && d <= 89)) {
+        printf("Stage 1 Hypertension\n");
+  }
+  if ((s > 140) || (d > 90)) {
+        printf("Stage 2 Hypertension\n");
+  }
+  if ((s > 180) || (d > 120)) {
+        printf("Hypertensive Crysis\n");
+  }
+    return 0;
 }
+  
